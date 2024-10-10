@@ -11,8 +11,7 @@ import org.hibernate.Session;
 import com.entities.Note;
 import com.helper.*;
 
-public class DeleteServlet extends 
-HttpServlet {
+public class DeleteServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     public DeleteServlet() {

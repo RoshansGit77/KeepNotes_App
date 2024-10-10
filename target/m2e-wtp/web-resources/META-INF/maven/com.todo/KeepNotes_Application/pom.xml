@@ -23,7 +23,7 @@
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
-			<version>6.5.0.Final</version>
+			<version>5.6.15.Final</version>
 			<type>jar</type>
 		</dependency>
 
@@ -34,6 +34,11 @@
 			<scope>test</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>com.bookverse</groupId>
+			<artifactId>BookVerse</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>KeepNotes_Application</finalName>
